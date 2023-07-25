@@ -92,13 +92,12 @@
   #projects p {
     color: #f0f0f0;
     padding: 1em;
-    margin-bottom: 2em;
   }
   
   .photos {
     background-color: #303841;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
   
   #projects a {
@@ -114,6 +113,10 @@
     color: #ff7f50;
   }
   
+  .text:hover {
+    color: #45567d;
+  }
+
   .show {
     background-color: #303841;
     text-decoration: none;
@@ -153,7 +156,8 @@
   #contact p {
     font-size: 18px;
     font-weight: 200;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   .contact-links {
@@ -165,7 +169,7 @@
   #contact a {
     text-decoration: none;
     color: #f0f0f0;
-    padding: .3em;
+    padding: .5em;
   }
   
   .contact:hover {
